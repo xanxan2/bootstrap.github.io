@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+	background-color:#f4f4f4;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height: 1.6em;
+	margin:0;
+}
+.center{
+  text-align: center;
+}
+.img-p{
+  border-radius: 80%;
+  width:150px;
+  height: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+  object-fit: cover;
+}
+.info-padding{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.section-half-image{
+  width: 100%;
+}
+.info-sub{
+  width:80%;
+}
+.six{
+  background-color:wheat;
+}
+
+.dflex{
+  display :flex ;
+} 
+.dflex li {
+  margin : 0 10px;
+}
+.three{
+  background-color: bisque;
+}
+
+/* NEW HTML STYLING */
+
+/* Navbar Styling */
+.navbar button {
+  border: none;
+}
+
+/* Carousel Styling */
+.carousel-item {
+  max-height: 500px;
+  height: 50vw;
+  overflow: hidden;
+}
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Lineup Styling */
+#lineup img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+
+/* Management Styling */
+#management img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
