@@ -1,2 +1,0 @@
-# bootstrapactivity
-# bootstrapactivity.github.io
